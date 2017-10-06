@@ -1,0 +1,76 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/material.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">Confia no Duo</span>
+                <div class="mdl-layout-spacer"></div>
+            </div>
+        </header>
+        <main class="mdl-layout__content">
+            <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect mdl-color--primary">
+                <!-- Tab Bars -->
+                <div class="mdl-tabs__tab-bar">
+                    <a href="#login" class="mdl-tabs__tab is-active mdl-color-text--white">Login</a>
+                    <a href="#register" class="mdl-tabs__tab mdl-color-text--white">Cadastrar</a>
+                </div>
+
+                <!-- MDL tab panels, is-active to denote currently active -->
+                <div class="mdl-tabs__panel is-active" id="login">
+                    <div class="mdl-card mdl-shadow--6dp">
+                        <div class="mdl-card__supporting-text">
+                            <form action="#">
+                                <div class="mdl-textfield mdl-js-textfield">
+                                    <input class="mdl-textfield__input" type="text" id="email" />
+                                    <label class="mdl-textfield__label" for="email">Email</label>
+                                </div>
+                                <div class="mdl-textfield mdl-js-textfield">
+                                    <input class="mdl-textfield__input" type="password" id="password" />
+                                    <label class="mdl-textfield__label" for="password">Senha</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <button class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect">Log in</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MDL Tab panel 2 -->
+                <div class="mdl-tabs__panel" id="register">
+                    <div class="mdl-card mdl-shadow--6dp">
+                        <div class="mdl-card__supporting-text">
+                            <form action="#">
+                                <div class="mdl-textfield mdl-js-textfield">
+                                    <input class="mdl-textfield__input" type="text" id="username" />
+                                    <label class="mdl-textfield__label" for="username">Nome no Jogo</label>
+                                </div>
+                                <div class="mdl-textfield mdl-js-textfield">
+                                    <input class="mdl-textfield__input" type="text" id="email" />
+                                    <label class="mdl-textfield__label" for="email">Email</label>
+                                </div>
+                                <div class="mdl-textfield mdl-js-textfield">
+                                    <input class="mdl-textfield__input" type="password" id="userpass" />
+                                    <label class="mdl-textfield__label" for="userpass">Senha</label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="mdl-card__actions mdl-card--border">
+                            <button class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect">Cadastrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

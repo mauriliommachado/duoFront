@@ -1,0 +1,11 @@
+.mdl-textfield-margem{
+    margin: 10px;
+}
+
+.mdl-layout {
+	align-items: center;
+}
+.mdl-layout__content {
+	padding: 24px;
+	flex: none;
+}
