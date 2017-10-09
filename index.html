@@ -16,61 +16,49 @@
             </div>
         </header>
         <main class="mdl-layout__content">
-            <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect mdl-color--primary">
-                <!-- Tab Bars -->
-                <div class="mdl-tabs__tab-bar">
-                    <a href="#login" class="mdl-tabs__tab is-active mdl-color-text--white">Login</a>
-                    <a href="#register" class="mdl-tabs__tab mdl-color-text--white">Cadastrar</a>
-                </div>
+            <div class="mdl-card mdl-shadow--2dp">
 
-                <!-- MDL tab panels, is-active to denote currently active -->
-                <div class="mdl-tabs__panel is-active" id="login">
-                    <div class="mdl-card mdl-shadow--6dp">
-                        <div class="mdl-card__supporting-text">
-                            <form action="#">
-                                <div class="mdl-textfield mdl-js-textfield">
-                                    <input class="mdl-textfield__input" type="text" id="email" />
-                                    <label class="mdl-textfield__label" for="email">Email</label>
-                                </div>
-                                <div class="mdl-textfield mdl-js-textfield">
-                                    <input class="mdl-textfield__input" type="password" id="password" />
-                                    <label class="mdl-textfield__label" for="password">Senha</label>
-                                </div>
-                            </form>
+                <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+                    <div class="mdl-tabs__tab-bar">
+                        <a href="#starks-panel" class="mdl-tabs__tab is-active">Login</a>
+                        <a href="#lannisters-panel" class="mdl-tabs__tab">Cadastrar</a>
+                    </div>
+
+                    <div class="mdl-tabs__panel is-active" id="starks-panel">
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input mdl-textfield-margem" type="text" id="email" />
+                            <label class="mdl-textfield__label mdl-textfield-margem" for="email">Email</label>
+                        </div>
+                        <div class="mdl-textfield mdl-js-textfield">
+                            <input class="mdl-textfield__input mdl-textfield-margem" type="password" id="password" />
+                            <label class="mdl-textfield__label mdl-textfield-margem" for="password">Senha</label>
                         </div>
                         <div class="mdl-card__actions mdl-card--border">
-                            <button class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect">Log in</button>
+                            <button class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect" onclick="window.location.href='home.html'">Login</button>
                         </div>
                     </div>
-                </div>
-
-                <!-- MDL Tab panel 2 -->
-                <div class="mdl-tabs__panel" id="register">
-                    <div class="mdl-card mdl-shadow--6dp">
-                        <div class="mdl-card__supporting-text">
-                            <form action="#">
-                                <div class="mdl-textfield mdl-js-textfield">
-                                    <input class="mdl-textfield__input" type="text" id="username" />
-                                    <label class="mdl-textfield__label" for="username">Nome no Jogo</label>
-                                </div>
-                                <div class="mdl-textfield mdl-js-textfield">
-                                    <input class="mdl-textfield__input" type="text" id="email" />
-                                    <label class="mdl-textfield__label" for="email">Email</label>
-                                </div>
-                                <div class="mdl-textfield mdl-js-textfield">
-                                    <input class="mdl-textfield__input" type="password" id="userpass" />
-                                    <label class="mdl-textfield__label" for="userpass">Senha</label>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="mdl-card__actions mdl-card--border">
-                            <button class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect">Cadastrar</button>
-                        </div>
+                    <div class="mdl-tabs__panel" id="lannisters-panel">
+                        <form action="#">
+                            <div class="mdl-textfield mdl-js-textfield">
+                                <input class="mdl-textfield__input mdl-textfield-margem" type="text" id="username" />
+                                <label class="mdl-textfield__label mdl-textfield-margem" for="username">Nome no Jogo</label>
+                            </div>
+                            <div class="mdl-textfield mdl-js-textfield">
+                                <input class="mdl-textfield__input mdl-textfield-margem" type="text" id="email" />
+                                <label class="mdl-textfield__label mdl-textfield-margem" for="email">Email</label>
+                            </div>
+                            <div class="mdl-textfield mdl-js-textfield">
+                                <input class="mdl-textfield__input mdl-textfield-margem" type="password" id="userpass" />
+                                <label class="mdl-textfield__label mdl-textfield-margem" for="userpass">Senha</label>
+                            </div>
+                            <div class="mdl-card__actions mdl-card--border">
+                                <button class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect">Cadastrar</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
-            </div>
         </main>
-    </div>
+        </div>
 </body>
 
 </html>

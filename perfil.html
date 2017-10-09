@@ -1,0 +1,38 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/material.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <button id="demo-menu-lower-left" class="mdl-button mdl-js-button mdl-button--icon" onclick="history.back()">
+                    <i class="material-icons">chevron_left</i>
+                </button>
+                <span class="mdl-layout-title">Perfil</span>
+            </div>
+        </header>
+        <main class="mdl-layout__content">
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input mdl-textfield-margem" type="text" id="username" />
+                <label class="mdl-textfield__label mdl-textfield-margem" for="username">Nome no Jogo</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input mdl-textfield-margem" type="text" id="email" />
+                <label class="mdl-textfield__label mdl-textfield-margem" for="email">Email</label>
+            </div>
+            <div class="mdl-textfield mdl-js-textfield">
+                <input class="mdl-textfield__input mdl-textfield-margem" type="password" id="userpass" />
+                <label class="mdl-textfield__label mdl-textfield-margem" for="userpass">Senha</label>
+            </div>
+            <button class="mdl-button mdl-button--colored mdl-button--raised mdl-js-button mdl-js-ripple-effect" onclick="history.back()">Atualizar perfil</button>
+        </main>
+    </div>
+</body>
+
+</html>

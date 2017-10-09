@@ -1,0 +1,126 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/material.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <script src="js/material.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header">
+            <div class="mdl-layout__header-row">
+                <span class="mdl-layout-title">DiianK</span>
+                <div class="mdl-layout-spacer"></div>
+                <nav class="mdl-navigation">
+                    <button id="demo-menu-lower-right" class="mdl-button mdl-js-button mdl-button--icon">
+                        <i class="material-icons">more_vert</i>
+                    </button>
+
+                    <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="demo-menu-lower-right">
+                        <li class="mdl-menu__item" onclick="window.location.href='perfil.html'">Perfil</li>
+                        <li class="mdl-menu__item" onclick="window.location.href='configuracoes.html'">Configurações</li>
+                    </ul>
+            </div>
+        </header>
+        <main class="mdl-layout__content">
+
+            <div class="mdl-card mdl-shadow--2dp card-wide">
+                <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+                    <div class="mdl-tabs__tab-bar">
+                        <a href="#starks-panel" class="mdl-tabs__tab is-active">Elo</a>
+                        <a href="#lannisters-panel" class="mdl-tabs__tab">Main</a>
+                        <a href="#wr1" class="mdl-tabs__tab">Campeão</a>
+                        <a href="#wr2" class="mdl-tabs__tab">Campeão</a>
+                    </div>
+
+                    <div class="mdl-tabs__panel is-active" id="starks-panel">
+
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">
+                                <b>MADEIRA 7</b>
+                            </h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h5>Pontos de Liga
+                                <span style="float:right;">59 PdL</span>
+                            </h5>
+                            <h5>Taxa de Vitórias
+                                <span style="float:right;">49%</span>
+                            </h5>
+                            <h5>Season Passada
+                                <span style="float:right;">Bronze 5</span>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="mdl-tabs__panel" id="lannisters-panel">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">
+                                <b>Jax</b>
+                            </h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h5>Taxa de Vitórias
+                                <span style="float:right;">49%</span>
+                            </h5>
+                            <h5>Partidas
+                                <span style="float:right;">
+                                    <p>49 Vitórias</p>
+                                    <p>51 Derrotas</p>
+                                </span>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="mdl-tabs__panel" id="wr1">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">
+                                <b>Sivir</b>
+                            </h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h5>Taxa de Vitórias
+                                <span style="float:right;">50%</span>
+                            </h5>
+                            <h5>Partidas
+                                <span style="float:right;">
+                                    <p>25 Vitórias</p>
+                                    <p>25 Derrotas</p>
+                                </span>
+                            </h5>
+                        </div>
+                    </div>
+                    <div class="mdl-tabs__panel" id="wr2">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text">
+                                <b>Nocturne</b>
+                            </h2>
+                        </div>
+                        <div class="mdl-card__supporting-text">
+                            <h5>Taxa de Vitórias
+                                <span style="float:right;">52%</span>
+                            </h5>
+                            <h5>Partidas
+                                <span style="float:right;">
+                                    <p>52 Vitórias</p>
+                                    <p>48 Derrotas</p>
+                                </span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="mdl-card__actions mdl-card--border">
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect" onclick="alert('Like!')">
+                        <i class="material-icons">thumb_up</i>
+                    </button>
+                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect" onclick="alert('triste')"
+                        style="float:right;">
+                        <i class="material-icons">thumb_down</i>
+                    </button>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>

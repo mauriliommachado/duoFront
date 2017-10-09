@@ -9,3 +9,11 @@
 	padding: 24px;
 	flex: none;
 }
+
+.card-wide.mdl-card {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+	margin-bottom: 20px;
+}
+
